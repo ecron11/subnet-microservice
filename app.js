@@ -3,7 +3,7 @@ const app = express();
 require('dotenv').config({path: __dirname + '/.env'})
 
 app.get('/', (req, res)=> {
-    res.send("Welcome to the homepage");
+    res.send("Welcome to the homepage BAY-BEE");
 })
 
 app.listen(process.env.PORT, () => {
